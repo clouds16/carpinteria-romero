@@ -9,8 +9,6 @@ import {
   Button,
 } from '@mantine/core';
 
-
-//changes to this one now test
 // Import components
 import HeroSection from './components/HeroSection';
 import ServicesSection from './components/ServicesSection';
@@ -83,34 +81,34 @@ function App() {
                 hiddenFrom="sm"
                 size="sm"
               />
-              <Title c="pink.6" className="font-serif" order={3}>Consentidas Mayte</Title>
+              <Title c="brown.6" className="font-serif" order={3}>Carpintería Romero</Title>
             </Group>
             
             <Group gap={5} visibleFrom="sm">
               <Button 
                 variant={activeSection === 'inicio' ? 'filled' : 'subtle'} 
-                color="pink" 
+                color="brown" 
                 onClick={() => scrollToSection('inicio')}
               >
                 Inicio
               </Button>
               <Button 
                 variant={activeSection === 'servicios' ? 'filled' : 'subtle'} 
-                color="pink" 
+                color="brown" 
                 onClick={() => scrollToSection('servicios')}
               >
                 Servicios
               </Button>
               <Button 
                 variant={activeSection === 'nosotros' ? 'filled' : 'subtle'} 
-                color="pink" 
+                color="brown" 
                 onClick={() => scrollToSection('nosotros')}
               >
                 Nosotros
               </Button>
               <Button 
                 variant={activeSection === 'contacto' ? 'filled' : 'subtle'} 
-                color="pink" 
+                color="brown" 
                 onClick={() => scrollToSection('contacto')}
               >
                 Contacto
@@ -124,7 +122,7 @@ function App() {
         <Button 
           fullWidth 
           variant={activeSection === 'inicio' ? 'filled' : 'subtle'} 
-          color="pink" 
+          color="brown" 
           onClick={() => scrollToSection('inicio')}
           mb="xs"
         >
@@ -133,7 +131,7 @@ function App() {
         <Button 
           fullWidth 
           variant={activeSection === 'servicios' ? 'filled' : 'subtle'} 
-          color="pink" 
+          color="brown" 
           onClick={() => scrollToSection('servicios')}
           mb="xs"
         >
@@ -142,7 +140,7 @@ function App() {
         <Button 
           fullWidth 
           variant={activeSection === 'nosotros' ? 'filled' : 'subtle'} 
-          color="pink" 
+          color="brown" 
           onClick={() => scrollToSection('nosotros')}
           mb="xs"
         >
@@ -151,7 +149,7 @@ function App() {
         <Button 
           fullWidth 
           variant={activeSection === 'contacto' ? 'filled' : 'subtle'} 
-          color="pink" 
+          color="brown" 
           onClick={() => scrollToSection('contacto')}
         >
           Contacto
